@@ -14,6 +14,7 @@ The server is accessible at [`http://localhost:3000`](http://localhost:3000)
 - Endpoints:
     - `/`
     - `/documentation` _(auto-generated)_
+    - `/healthz`
     - `/microsoft`
     - `/nintendo`
     - `/playstation`
