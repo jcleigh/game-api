@@ -3,23 +3,7 @@ Just a simple [hapi JS](https://hapi.dev/) REST API that can be used for trainin
 Note: This is still WIP!
 
 ## Getting Started
-```bash
-npm i
-npm run start
-```
-The server is accessible at [`http://localhost:3000`](http://localhost:3000)
-
-## Current Iteration
-- Returns a list of games I own for a variety of systems, sourced from hardcoded JS objects
-- Endpoints:
-    - `/`
-    - `/documentation` _(auto-generated)_
-    - `/healthz`
-    - `/microsoft`
-    - `/nintendo`
-    - `/playstation`
-    - `/sony`
-    - `/xbox`
+Navigate to the desired lesson directory and read the `README.md` file
 
 ## Dependencies
 - [hapi](https://hapi.dev/): The API framework that runs the whole application

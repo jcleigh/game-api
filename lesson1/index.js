@@ -32,7 +32,7 @@ const init = async () => {
         path: '/',
         options: {
             handler: (request, h) => {
-                return 'GAME API';
+                return '<p>GAME API<br><a href="/documentation">Documentation</a></p>';
             },
             tags: ['api']
         }
