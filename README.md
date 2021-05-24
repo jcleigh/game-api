@@ -1,9 +1,11 @@
 # GAME API
 Just a simple [hapi JS](https://hapi.dev/) REST API that can be used for training purposes.
-Note: This is still WIP!
+
+**Note: This is still WIP!**
 
 ## Getting Started
-Navigate to the desired lesson directory and read the `README.md` file
+Navigate to the desired lesson directory and read the `README.md` file.
+1. [Lesson 1 - The Basics](/lesson1)
 
 ## Dependencies
 - [hapi](https://hapi.dev/): The API framework that runs the whole application
