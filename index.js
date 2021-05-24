@@ -39,6 +39,16 @@ const init = async () => {
     });
     server.route({
         method: 'GET',
+        path: '/healthz',
+        options: {
+            handler: (request, h) => {
+                return { 'game-api': 'up' };
+            },
+            tags: ['api']
+        }
+    });
+    server.route({
+        method: 'GET',
         path: '/sony',
         options: {
             handler: (request, h) => {
@@ -127,6 +137,7 @@ const init = async () => {
                     'Microsoft Xbox Series X': [
                         'Assassin\'s Creed Valhalla',
                         'Crash Bandicoot 4',
+                        'Mass Effect Legendary Edition',
                         'Minecraft',
                         'Rare Replay',
                         'Red Dead Redemption II',
@@ -161,7 +172,22 @@ const init = async () => {
             handler: (request, h) => {
                 return {
                     'Nintendo Switch': [
-                        ''
+                        'America\'s Greatest Game Shows: Wheel of Fortune & Jeopardy',
+                        'Diablo III Eternal Collection',
+                        'The Elder Scrolls V: Skyrim',
+                        'Final Fantasy X/X2 HD Remaster',
+                        'Final Fantasy XII: The Zodiac Age',
+                        'Hyrule Warriors: Age of Calamity',
+                        'Mario Kart 8 Deluxe',
+                        'New Super Mario Bros. U Deluxe',
+                        'Octopath Traveler',
+                        'Sega Genesis Classics',
+                        'Sonic Forces',
+                        'Splatoon 2',
+                        'Super Mario 3D All-Stars',
+                        'Super Mario Odyssey',
+                        'The Legend of Zelda: Breath of the Wild',
+                        'The Legend of Zelda: Link\'s Awakening'
                     ],
                     'Nintendo Wii': [
                         'Dance Dance Revolution',
